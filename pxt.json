@@ -1,0 +1,34 @@
+{
+    "name": "cat game v1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#c932ef6b9f21320f2b6307dc01c75bbd8179b278",
+        "multiplayer": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.30",
+        "tag": "v1.8.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/825ea9e52c6d33c12777ef204c0406661995353f",
+        "target": "4.0.14",
+        "pxt": "7.4.31",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
